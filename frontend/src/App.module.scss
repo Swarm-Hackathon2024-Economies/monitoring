@@ -1,0 +1,48 @@
+
+
+.appArea {
+  width: calc(100vw - 48px);
+  height: 100vh;
+  background: gainsboro;
+  display: flex;
+  margin: 0 24px;
+  > .liveArea {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > h1 {
+
+    }
+    > img {
+      width: 50% * 1.41;
+      height: 50%;
+
+    }
+  }
+  > .stateArea {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //background: blue;
+
+    > p {
+      width: 320px;
+      height: 72px;
+      background: black;
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 125%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
